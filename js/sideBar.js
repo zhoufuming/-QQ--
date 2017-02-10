@@ -15,7 +15,7 @@
 			this.className = 'active';
 
 			// 让li背景图片的偏移量，随着子元素a的宽度来变换
-			this.style.backgroundPosition = aA[this.index].offsetWidth+10+'px 5px';
+			this.style.backgroundPosition = aA[this.index].offsetWidth+10+'px 15px';
 		};
 	}
 })();
