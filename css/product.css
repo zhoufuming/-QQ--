@@ -1,0 +1,74 @@
+@charset="utf-8";
+#content1 {
+	width: 960px;
+	height: 1130px;
+}
+
+/* left主体内容开始 */
+#left {
+	width: 223px;
+	height: 1093px;
+	float: left;
+	font-size: 14px;
+	background:url(../images/productImg/productLeftBg.png) repeat;
+	padding: 37px 0 0 33px;
+	line-height: 36px;
+}
+#left ul {
+	width: 210px;
+	height: 385px;
+}
+#left li {
+	width: 210px;
+	height: 35px;
+}
+#left a {
+	color: #515dbc;
+}
+#left a:hover {
+	color: #0089fe;
+}
+#left .active {
+	background: url(../images/productImg/productLeftBg1.png) no-repeat 115px 15px;
+}
+#left .active a {
+	color: #0089fe;
+	font-size: 16px;
+}
+/* left主体内容end */
+
+/* right主体内容开始 */
+#right {
+	width: 654px;
+	height: 1105px;
+	float: left;
+	background: #fff;
+	padding: 25px 25px 0 25px;
+	overflow: hidden;
+}
+#content1 h2 {
+	font: 16px/200% "宋体";
+	width: 654px;
+	line-height: 38px;
+	background: #f2f7fc;
+	margin-bottom: 24px;
+	text-indent: 8px;
+}
+#content1 p {
+	font-size: 12px;
+	line-height: 26px;
+	word-wrap: break-word;
+}
+#content1 h3 {
+	font-size: 16px;
+	line-height: 38px;
+}
+#content1 h4 {
+	font-size: 14px;
+	line-height: 30px;
+}
+#right li {
+	position: relative;
+	left:20px;
+}
+/* left主体内容end */

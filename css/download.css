@@ -1,0 +1,85 @@
+@charset="utf-8";
+#content1 {
+	width: 880px;
+	height: 470px;
+	background: #fff;
+	padding: 40px 40px 0 40px;
+}
+/* download部分开始 */
+.downloadPro {
+	width: 877px;
+	height: 356px;
+	margin: 0;
+}
+.downloadProLeft {
+	width: 463px;
+	height: 260px;
+	border: 1px solid #e5c8a8;
+	position: relative;
+	padding: 30px 0 0 80px;
+	float: left;
+	margin-right: 50px;
+	background: #fefaef;
+	border-radius: 2%;
+}
+.downloadProLeft h2 {
+	padding-bottom: 20px;
+	font-size: 35px;
+}
+.downloadProLeft img:first-child {
+	position: absolute;
+	left: -15px;
+	top: -10px;
+}
+.downloadProLeft img:first-child+img {
+	position: absolute;
+	right: -3px;
+	top: -3px;
+}
+.downloadProLeft img:first-child+img+img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.downloadProLeft input {
+	margin:20px 5px 0 0;
+	width: 120px;
+	height: 45px;
+}
+.downloadProRight {
+	width: 200px;
+	height: 290px;
+	border: 1px solid #c5d1e1;
+	float: left;
+	padding-left: 75px;
+	background: #f3f6ff;
+	border-radius: 2%;
+	position: relative;
+}
+.downloadProRight img {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+}
+.downloadProRight a img {
+	position: static;
+	margin-top: 20px;
+}
+.downloadProRight h2 {
+	padding: 35px 0;
+}	
+#content1 h3 {
+	width: 73px;
+	height: 25px;
+	font-size: 12px;
+	background: #f9e7bf;
+	text-align: center;
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#content1 p {
+	font-size: 11px;
+	line-height: 24px;
+	color: #935a08;
+}
+/* download部分end */

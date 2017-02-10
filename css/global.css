@@ -1,0 +1,138 @@
+@charset="utf-8";
+/* 全局样式/通用样式  */
+body {
+	background: url(../images/indexImg/indexbg.png) repeat-x #d9e2ce;
+	min-width: 960px;
+}
+body a:hover {
+	color: red;
+}
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+	font-family: "微软雅黑","宋体";
+}
+.clearfix {
+	zoom:1;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* 头部start */
+#head a:hover {
+	  border-left: 1px solid #EEEEEE; 
+	  border-right: 1px solid #717171;
+	  border-top: 1px solid #EEEEEE;
+	  border-bottom: 1px solid #717171;
+}
+#head {
+	background: url(../images/helpImg/head_bg.jpg) no-repeat center 0;
+	height: 81px;
+	text-align: right;
+	padding-top: 14px;
+	width: 85%;
+	color: #d7f3fb;
+	font-size: 12px;
+	line-height: 30px;
+	padding-right: 15%;
+}
+#head a {
+	color: #d7f3fb;
+}
+#head p {
+	background: url(../images/indexImg/indexBg1.png) no-repeat 20px 10px;
+	width: 240px;
+	display: inline-block;
+	text-align: center;
+}
+#nav {
+	height: 42px;
+	width: 960px;
+	background: url(../images/indexImg/indexNav_bg.png);
+}
+#nav .navL {
+	background: url(../images/indexImg/indexNavL_bg.png) no-repeat;
+}
+#nav .navR {
+	background: url(../images/indexImg/indexNavR_bg.png) no-repeat right 0;
+	height: 42px;
+}
+#nav li {
+	float: left;
+	font-size: 14px;
+	height: 42px;
+	width:115px; 
+	text-align: center;
+	line-height:42px;
+	position: relative;
+	margin-right: 20px;
+}
+#nav a {
+	color: #fff;
+}
+#nav li:hover,#nav .active {
+	background: url(../images/indexImg/indexNav_hover.png) no-repeat ;
+}
+/* 头部end */
+
+/* 底部start */
+#bottom {
+	width: 960px;
+	height: 120px;
+	line-height: 30px;
+	clear: both;
+	zoom:1;
+	background: url(../images/indexImg/indexBottomtBg.png) repeat-x;
+	padding-top: 10px;
+	color: #808080;
+	font-size: 12px;
+	text-align: center;
+}
+#bottom ul{
+	width: 960px;
+	height: 30px;
+}
+#bottom li {
+	float: left;
+	position: relative;
+	left:160px;
+	padding-left: 10px;
+}
+#bottom a {
+	color: #808080;
+}
+#bottom a:hover {
+	color: red;
+}
+#bottom span{
+	display: inline-block;
+}
+/* 底部end */
+
+/* 右侧边栏start */
+#QQ a {
+	width: 174px;
+	height: 80px;
+	background: url(../images/indexImg/indexQQ.png);
+	position:fixed;
+	top: 50%;
+	right:0;
+}
+#returntop {
+	position:fixed;
+	right: 10px;
+	top:400px;
+	transition: right 200ms ease;
+	color: #ffffff;
+	text-align: center;
+	display: none;
+}
+#returntop img {
+	width: 40px;
+}
+/* 右侧边栏end */

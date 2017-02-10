@@ -1,0 +1,66 @@
+@charset="utf-8";
+#content1 {
+	width: 960px;
+	height: 840px;
+}
+
+/* left主体内容开始 */
+#left {
+	width: 213px;
+	height: 803px;
+	float: left;
+	font-size: 14px/36px "宋体";
+	background:url(../images/productImg/productLeftBg.png) repeat;
+	padding: 37px 0 0 43px;
+}
+#left ul {
+	width: 233px;
+	height: 253px;
+}
+#left li {
+	width: 233px;
+	height: 35px;
+}
+#left a {
+	color: #515dbc;
+}
+#left .active a {
+	color: #0089fe;
+	font-size: 16px;
+	cursor: text;
+}
+#left .active {
+	background: url(../images/productImg/productLeftBg1.png) no-repeat 122px 15px;
+}
+#left a:hover {
+	color: #0089fe;
+}
+/* left主体内容end */
+
+/* right主体内容开始 */
+#right {
+	width: 654px;
+	height: 815px;
+	float: left;
+	background: #fff;
+	padding: 25px 25px 0 25px;
+}
+#content1 h2 {
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	width: 654px;
+	background: #f2f7fc;
+	margin-bottom: 24px;
+	text-indent: 8px;
+}
+#content1 h3 {
+	font-size: 12px;
+	height: 38px;
+	line-height: 38px;
+}
+#content1 p {
+	font-size: 11px;
+	line-height: 24px;
+}
+/* right主体内容end */

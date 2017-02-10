@@ -1,0 +1,109 @@
+@charset="utf-8";
+#content1 {
+	width: 960px;
+	height: 2410px;
+}
+
+/* left主体内容start */
+#left {
+	width: 213px;
+	height: 2373px;
+	float: left;
+	font-size: 14px;
+	background:url(../images/productImg/productLeftBg.png) repeat;
+	padding: 37px 0 0 43px;
+	line-height: 36px;
+}
+#left ul {
+	width: 210px;
+	height: 385px;
+}
+#left li {
+	width: 210px;
+	height: 35px;
+}
+#left a {
+	color: #515dbc;
+}
+#left a:hover {
+	color: #0089fe;
+}
+#left .active {
+	background: url(../images/productImg/productLeftBg1.png) no-repeat 70px 15px;
+}
+#left .active a {
+	color: #0089fe;
+	font-size: 16px;
+}
+#content1 h2 {
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+	width: 654px;
+	background: #f2f7fc;
+	margin-bottom: 24px;
+	text-indent: 8px;
+	float: left;
+}
+#content1 p {
+	font-size: 12px;
+	line-height: 24px;
+	word-wrap: break-word;
+}
+#content1 h3 {
+	font-size: 11px;
+	line-height: 38px;
+	color: #222222;
+}
+#content1 .leftHelp,#content1 .leftFunction {
+	width: 156px;
+	height: 50px;
+	text-align: center;
+	background: url(../images/productImg/helpLiftBg.png) repeat-x;
+}
+.leftHelp a,.leftFunction a {
+	color: #fff;
+}
+#left figure {
+	width: 255px;height: 150px;margin: 0;
+}
+#left img {
+	margin: 12px 0;
+}
+/* left主体内容end */
+
+/* right主体内容start */
+#right {
+	width: 654px;
+	height: 2385px;
+	float: left;
+	background: #fff;
+	padding: 25px 25px 0 25px;
+	overflow: hidden;
+}
+#right ul {
+	width: 654px;
+	height: 115px;
+}
+#right li {
+	width: 320px;
+	height: 30px;
+	font-size: 11px;
+	float: left;
+}
+#right a {
+	color: #1a5d96;
+}
+#right a:hover {
+	color: #012849;
+}
+#right img {
+	margin-left: 40px;
+	margin-top: 25px;
+}
+#right h4 {
+	font-size: 11px;
+	text-align: center;
+	line-height: 25px;
+}
+/* right主体内容end */

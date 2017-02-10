@@ -1,0 +1,308 @@
+@charset="utf-8";
+body {
+	background-position: 0 505px;
+}
+/* 头部广告部分开始 */
+#adFull {
+	height: 505px;
+	width: 100%;
+	overflow: hidden;
+	background: url(../images/indexImg/indexAdFullBg2.jpg) repeat-x;
+	position: relative;
+}
+#adFull span {
+	position: absolute;
+	top: 1px;
+	right: 250px;
+	color: #fff;
+	text-align: right;
+	display: none;
+}
+#adFull strong {
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+#area {
+	height: 505px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	background:  url(../images/indexImg/indexAdFull1.jpg);
+}
+#adFull .adWpa {
+	position: absolute;
+	top: 389px;
+	left: 450px;
+	height: 91px;
+	width: 304px;
+}
+#adFull .adClose {
+	position: absolute;
+	top: 0;
+	right: 122px;
+	height: 22px;
+	width: 22px;
+}
+/* 头部广告部分end */
+
+/* 轮播图部分开始 */
+#slider {
+	position: relative;
+	width: 960px;
+	height:284px; 
+	overflow: hidden;
+	background: url(../images/indexImg/Loading.gif) no-repeat 300px -10px #fcfefc;
+}
+#sliderPic {
+	position: absolute;
+	width: 600%;
+	height: 284px;
+}
+#slider li {
+	width: 960px;
+	height: 284px;
+	float: left;
+}
+#circle li:hover,#circle .active {
+	color: white;
+	font-size: 13px;
+	background: #0000cc;
+}
+#circle {
+	position: absolute;
+	top: 242px;
+	left: 765px;
+}
+#circle li {
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	margin: 3px;
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	line-height: 25px;
+	color: #7b91b6;
+	cursor:pointer; 
+	border-radius: 20%;
+
+}
+#circle li:hover,#circle .active {
+	background: #afceef;
+}
+/* 轮播图部分end */
+
+/* whyUseQQ部分开始 */
+#whyUseQQ {
+	height: 286px;
+	width: 930px;
+	background: url(../images/indexImg/whyUseQQBg.png) repeat;
+	padding: 30px 30px 0 0;
+}
+#whyUseQQ img {
+	position: relative;
+	left: -11px;
+	top: -30px;
+}
+#whyUseQQ li {
+	width: 310px;
+	height: 120px;
+	float: left;
+}
+#whyUseQQ h1 {
+	font-size: 55px;
+	color: #c7ddf2;
+	width: 65px;
+	height: 110px;
+	text-align: center;
+	float: left;
+}
+#whyUseQQ .whyUseQQTxt {
+	width: 245px;
+	height: 110px;
+	float:right;
+} 
+#whyUseQQ span,.leftList1 span {
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: bold;
+	color: #3c3b3b;
+}
+#whyUseQQ p,#content p {
+	font-size: 12px;
+	line-height: 24px;
+	color: #484747;
+}
+/* whyUseQQ部分开始 */
+
+/* main部分开始 */
+#content {
+	width: 960px;
+	height: 1080px;
+}
+#content .left {
+	width: 689px;
+	height: 1080px;
+	float: left;
+	background: #fff;
+	padding-left: 21px;
+}
+#content .left ul {
+	height: 240px;
+	width:710px;
+}
+#content .leftList1 {
+	width: 710px;
+	height: 278px;
+}
+.leftList1 li {
+	width: 255px;
+	height: 100px;
+	float: left;
+	padding-left: 60px;
+	padding-right: 25px;
+	background: url(../images/indexImg/indexContentLiftList.png) no-repeat 0px 15px;
+}
+.leftList1 .List1li2 {
+	background-position: 0 -65px;
+}
+.leftList1 .List1li3 {
+	background-position: 0 -150px;
+}
+.leftList1 .List1li4 {
+	background-position: 0 -235px;
+}
+.leftList1 h2 {
+	font-size: 16px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+#content .leftList2{
+	width: 689px;
+	height: 260px;
+}
+.leftList2 .leftList2title,.leftList3 .leftList3title {
+	width: 689px;
+	height: 22px;
+	background: url(../images/indexImg/indexContentLift2TitleBg.png) no-repeat 70px 10px;
+}
+.leftList2title h2,.leftList3title h2,.leftList4title h2 {
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+}
+.leftList2title a,.leftList3title a {
+	font-size: 12px;
+	float: right;
+	margin-right: 20px;
+}
+.leftList2 li,.leftList3 li {
+	width: 206px;
+	height: 218px;
+	float:left;
+	padding:24px 22px 0 0;
+}
+.leftList2 img,.leftList img {
+	width:205px;
+	height:79px;
+}
+.leftList2 h3,.leftList3 h3 {
+	height: 43px;
+	line-height: 55px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.leftList2 span {
+	font-size: 12px;
+	color: red;
+}
+#content .leftList3 {
+	width: 689px;
+	height: 253px;
+	margin-top: 15px;
+}
+#content .leftPic {
+	width: 689px;
+	height: 128px;
+}
+#content .leftList4 {
+	width: 668px;
+	height: 280px;
+	padding-right: 21px;
+	position: relative;
+	overflow: hidden;
+}
+.leftList4 .leftList4title {
+	width: 689px;
+	height: 43px;
+	background: url(../images/indexImg/indexContentLift2TitleBg.png) no-repeat 85px 8px;
+}
+#content .leftList4 ul {
+	width: 500%;
+	height: 52px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	overflow: hidden;
+
+}
+.leftList4 li {
+	width: 150px;
+	height: 50px;
+	float: left;
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+}
+.leftList4 li img {
+	width: 100%;
+	height: 100%;
+}
+#content .right {
+	width: 232px;
+	height: 1070px;
+	background: url(../images/indexImg/indexContentRightBg.png) repeat-x;
+	float: left;
+	padding: 10px 8px 0 10px;
+}
+#content .rightPic2 {
+	width: 196px;
+	height: 43px;
+	padding: 25px 21px 38px 12px;
+}
+.rightPic2 button {
+	background: #a8c962;
+	font-size: 20px;
+	color: #fff;
+	width: 196px;
+	height: 42px;
+}
+.right .rightList1,.right .rightList2,.right .rightList3 {
+	width: 220px;
+	height: 208px;
+	padding-left: 12px;
+}
+.rightList1 h2,.rightList2 h2,.rightList3 h2 {
+	font: 700 16px "宋体";
+	margin-bottom: 30px;
+}
+.rightList3 {
+	color: #1a5d96;
+	font-size: 12px;
+	line-height: 25px;
+}
+.rightList1 a,.rightList2 a {
+	color: #1a5d96;
+	font-size: 12px;
+	line-height: 25px;
+}
+.rightPic3 {
+	width: 232px;
+	height: 210px;
+}
+.rightPic3 img {
+	width: 232px;
+	height: 90px;
+	padding-bottom: 4px;
+}
+/* main部分end */
+
