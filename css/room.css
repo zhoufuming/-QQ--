@@ -30,7 +30,7 @@
 	cursor: text;
 }
 #left .active {
-	background: url(../images/productImg/productLeftBg1.png) no-repeat 122px 15px;
+	background: url(../images/productImg/productLeftBg1.png) no-repeat 122px 5px;
 }
 #left a:hover {
 	color: #0089fe;
