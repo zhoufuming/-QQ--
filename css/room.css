@@ -23,6 +23,7 @@
 }
 #left a {
 	color: #515dbc;
+	line-height: 35px;
 }
 #left .active a {
 	color: #0089fe;
